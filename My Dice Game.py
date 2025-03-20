@@ -38,7 +38,7 @@ dice3 = r'''
 game_images = [dice1, dice2, dice3]
 
 
-player_choice = str(input("Welcome to the table, Have what it takes? Type Roll\n")).lower()
+input("Welcome to the table, Have what it takes? Type Roll\n").lower()
 roll = random.randint(1,6)
 print(roll)
 print(random.choice(game_images))
