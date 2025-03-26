@@ -1,4 +1,4 @@
-from art import logo
+from calc_art import logo
 print(logo)
 def add(n1, n2):
     return n1 + n2
